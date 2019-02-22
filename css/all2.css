@@ -1,0 +1,241 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+    width:1000px;
+    margin: 0 auto;
+}
+.header{
+    position: relative;
+    background: #424242;
+    width:1000px;
+    height: 200px;
+    padding-top: 100px;
+}
+.header img{
+    float: left;
+    margin-left: 100px;
+}
+.header form{
+    float:left; 
+    margin-left: 100px;
+}
+.header form p{
+    font-size: 18px;
+    color: #FFD366;
+    margin-bottom:5px;
+}
+.header input{
+    margin-bottom: 10px;
+    background: rgba(255,255,255,0.18);
+    border: 2px solid #FFD366;
+    border-radius: 10px;
+    width:250px;
+    height: 40px;
+    color: aliceblue;
+    font-size: 20px;
+}
+::-webkit-input-placeholder {
+    font-size: 20px;
+    color: rgba(255,255,255,0.50);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-size: 20px;
+    color: rgba(255,255,255,0.50);
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-size: 20px;
+    color: rgba(255,255,255,0.50);
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-size: 20px;
+    color: rgba(255,255,255,0.50);
+}
+.header button{ 
+    float: left;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.btn{
+    background: #FFD366;
+    font-family: "標楷體";
+    font-size: 24px;
+    color: #424242;
+}
+.content{
+    text-align: center;
+    margin-top: 50px;
+}
+.content h2{
+    font-size: 40px;
+}
+.btn1{
+    background: #424242;
+    border:5px solid rgb(91, 228, 91);
+    font-family: "標楷體";
+    font-size: 24px;
+    color: rgb(91, 228, 91);
+}
+.btn2{
+    background: #424242;
+    border:5px solid skyblue;
+    font-family: "標楷體";
+    font-size: 24px;
+    color: skyblue;
+}
+.btn3{
+    background: #424242;
+    border:5px solid rgb(243, 183, 72);
+    font-family: "標楷體";
+    font-size: 24px;
+    color: rgb(243, 183, 72);
+}
+.btn4{
+    background: #424242;
+    border:5px solid orange;
+    font-family: "標楷體";
+    font-size: 24px;
+    color: orange;
+}
+.btn5{
+    background: #424242;
+    border:5px solid orange;
+    font-family: "標楷體";
+    font-size: 24px;
+    color: orange;
+}
+.btn6{
+    background: #424242;
+    border:5px solid red;
+    font-family: "標楷體";
+    font-size: 24px;
+    color: red;
+}
+.list li{
+    margin-top: 30px;
+}
+.box{
+    border-left:5px solid greenyellow;
+    float: left;
+    color: red;
+    margin-left: 50px;
+    text-align: center;
+    width:300px;
+    height: 30px;
+}
+.box1{
+    float: left;
+    color: blue;
+    margin-left: 80px;
+    text-align: center;
+    width:200px;
+    height: 30px;
+}
+.box2{
+    float: left;
+    color: green;
+    margin-left: 80px;
+    width:200px;
+    height: 30px;
+}
+.boxa{
+    border-left:5px solid skyblue;
+    float: left;
+    color: red;
+    margin-left: 50px;
+    text-align: center;
+    width:300px;
+    height: 30px;
+}
+.boxb{
+    border-left:5px solid  rgb(243, 183, 72);
+    float: left;
+    color: red;
+    margin-left: 50px;
+    text-align: center;
+    width:300px;
+    height: 30px;
+}
+.boxc{
+    border-left:5px solid  rgb(243, 183, 72);
+    float: left;
+    color: red;
+    margin-left: 50px;
+    text-align: center;
+    width:300px;
+    height: 30px;
+}
+.boxd{
+    border-left:5px solid orange;
+    float: left;
+    color: red;
+    margin-left: 50px;
+    text-align: center;
+    width:300px;
+    height: 30px;
+}
+.boxe{
+    border-left:5px solid red;
+    float: left;
+    color: red;
+    margin-left: 50px;
+    text-align: center;
+    width:300px;
+    height: 30px;
+}
+.footer{
+    background: gray;
+    width:100%;
+    height: 150px;
+    margin-top: 30px;
+}
+.footer img{
+    margin-top: 20px;
+    margin-left: 440px;
+}
+.clear{
+    clear: both;
+}
